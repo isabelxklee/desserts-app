@@ -1,0 +1,25 @@
+{
+  "desserts": [
+    {
+      "id": 1,
+      "name": "Tahini Lemon Cake",
+      "image": "https://assets.blog.foodnetwork.ca/wp-content/uploads/2019/04/21154429/Tahini-Summer-Berry-Lemon-Pound-Cake_-3.jpg",
+      "chef": "isabel",
+      "flavor profile": "tart"
+    },
+    {
+      "id": 2,
+      "name": "Almond Croissant",
+      "image": "https://assets.wsimgs.com/wsimgs/ab/images/dp/wcm/202012/1111/img3c.jpg",
+      "chef": "frankie",
+      "flavor profile": "sweet"
+    },
+    {
+      "id": 3,
+      "name": "Vegan Carrot Cake",
+      "image": "https://assets.bonappetit.com/photos/5ca768688115784c0e2a102b/3:2/w_2560,c_limit/Basically-Carrot-Cake-01.jpg",
+      "chef": "diva",
+      "flavor profile": "fruity"
+    }
+  ]
+}
