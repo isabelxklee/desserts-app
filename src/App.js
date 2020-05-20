@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './App.css'
 import AllDesserts from './AllDesserts.jsx'
+import NewDessert from './NewDessert.jsx'
 // import FilterChef from './FilterChef.jsx'
 
 class App extends Component {
@@ -22,7 +23,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Desserts!</h1>
-        {/* <FilterChef /> */}
+        <NewDessert desserts = { this.state.desserts } />
         <AllDesserts desserts = { this.state.desserts } />
         
         {/* <SearchDessert /> */}
