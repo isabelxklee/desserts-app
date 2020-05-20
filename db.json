@@ -3,21 +3,24 @@
     {
       "id": 1,
       "name": "Tahini Lemon Cake",
-      "image": "https://assets.blog.foodnetwork.ca/wp-content/uploads/2019/04/21154429/Tahini-Summer-Berry-Lemon-Pound-Cake_-3.jpg",
+      "image-front": "https://assets.blog.foodnetwork.ca/wp-content/uploads/2019/04/21154429/Tahini-Summer-Berry-Lemon-Pound-Cake_-3.jpg",
+      "image-back": "https://www.seedandmill.com/media/wysiwyg/Recipes/carrot_cake_with_tahini_frosting.jpg",
       "chef": "isabel",
       "flavor profile": "tart"
     },
     {
       "id": 2,
       "name": "Almond Croissant",
-      "image": "https://assets.wsimgs.com/wsimgs/ab/images/dp/wcm/202012/1111/img3c.jpg",
+      "image-front": "https://assets.wsimgs.com/wsimgs/ab/images/dp/wcm/202012/1111/img3c.jpg",
+      "image-back": "https://cnz.to/wp-content/uploads/2006/03/almond_croissants-2-760x507.jpg",
       "chef": "frankie",
       "flavor profile": "sweet"
     },
     {
       "id": 3,
       "name": "Vegan Carrot Cake",
-      "image": "https://assets.bonappetit.com/photos/5ca768688115784c0e2a102b/3:2/w_2560,c_limit/Basically-Carrot-Cake-01.jpg",
+      "image-front": "https://assets.bonappetit.com/photos/5ca768688115784c0e2a102b/3:2/w_2560,c_limit/Basically-Carrot-Cake-01.jpg",
+      "image-back": "https://hips.hearstapps.com/vidthumb/images/carrot-cake-horozontal-1520010595.jpg",
       "chef": "diva",
       "flavor profile": "fruity"
     }

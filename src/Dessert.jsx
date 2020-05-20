@@ -1,13 +1,27 @@
 import React, { Component } from 'react'
 
 class Dessert extends Component {
+  state = {
+    toggleImage: true
+  }
+
+  handleToggleImage = (event) => {
+    this.setState({
+      toggleImage: !this.state.toggleImage
+    })
+  }
+
   render() {
-    let { name, image, chef, ["flavor profile"]: flavor } = this.props.dessert
+    let { name, "image-front": front, "image-back": back, chef, "flavor profile": flavor } = this.props.dessert
 
     return (
       <div className="card">
-        <img src={image} alt={name}/>
-        <p>{name}</p>
+        { this.state.toggleImage
+        ? <img src={front} alt={name} onClick={this.handleToggleImage}/>
+        : <img src={back} alt={name} onClick={this.handleToggleImage}/>
+        }
+
+        <h3>{name}</h3>
         <p>Chef {chef}</p>
         <p>Flavor: {flavor}</p>
       </div>
