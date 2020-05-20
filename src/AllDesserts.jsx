@@ -36,21 +36,23 @@ class AllDesserts extends Component {
 
     return (
       <div className="desserts">
-        <h3>Filter by chef</h3>
-        <input type="radio" id="all" name="all" value="all" onChange={this.handleFilterChange} checked={ this.state.checkedOption === "all"} />
-        <label>All chefs</label>
-        <br></br>
+        <div className="radio-buttons">
+          <h3>Filter by chef</h3>
+          <input type="radio" id="all" name="all" value="all" onChange={this.handleFilterChange} checked={ this.state.checkedOption === "all"} />
+          <label>All chefs</label>
+          <br></br>
 
-        <input type="radio" id="isabel" name="isabel" value="isabel" onChange={this.handleFilterChange} checked={ this.state.checkedOption === "isabel"}/>
-        <label>Chef Isabel</label>
-        <br></br>
+          <input type="radio" id="isabel" name="isabel" value="isabel" onChange={this.handleFilterChange} checked={ this.state.checkedOption === "isabel"}/>
+          <label>Chef Isabel</label>
+          <br></br>
 
-        <input type="radio" id="frankie" name="frankie" value="frankie" onChange={this.handleFilterChange} checked={ this.state.checkedOption === "frankie"}/>
-        <label>Chef Frankie</label>
-        <br></br>
+          <input type="radio" id="frankie" name="frankie" value="frankie" onChange={this.handleFilterChange} checked={ this.state.checkedOption === "frankie"}/>
+          <label>Chef Frankie</label>
+          <br></br>
 
-        <input type="radio" id="diva" name="diva" value="diva" onChange={this.handleFilterChange} checked={ this.state.checkedOption === "diva"}/>
-        <label>Chef Diva</label>
+          <input type="radio" id="diva" name="diva" value="diva" onChange={this.handleFilterChange} checked={ this.state.checkedOption === "diva"}/>
+          <label>Chef Diva</label>
+        </div>
       
         <h3>All Desserts</h3>
         { dessertsArr }
