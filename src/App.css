@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 6px;
+  width: 250px;
+  margin: 50px;
+  padding: 10px
+}
+
+img {
+  border-radius: 6px;
+  width: 250px;
+  object-fit: cover;
+}
+
+.desserts {
+  display: inline-block;
+}
